@@ -9,4 +9,4 @@ def index():
 
 @app.route("/about")
 def about():
-    return "<h1 style='color:blue'>About Page<h1>"
+    return render_template("public/about.html")
